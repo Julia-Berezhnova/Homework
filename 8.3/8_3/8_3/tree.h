@@ -6,9 +6,10 @@ struct Node;
 
 struct Tree;
 
-// Creates a new empty tree.
+// Creates new empty tree.
 Tree* createTree();
 
+// Adds new value to the tree
 void addValue(Tree* tree, std::string const &value);
 
 void printTree(Tree* tree);
